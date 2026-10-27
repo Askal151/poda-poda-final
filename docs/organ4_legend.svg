@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="92.0mm" height="147.0mm" viewBox="0 0 92.0 147.0">
+<rect x="0" y="0" width="92.0" height="147.0" rx="2" fill="#111a12"/>
+<text x="46.0" y="8.5" fill="#c6472f" font-family="monospace" font-size="4.6" font-weight="bold" text-anchor="middle">OPTICAL CARD ORGAN</text>
+<text x="46.0" y="13.5" fill="#8fae8a" font-family="monospace" font-size="3" text-anchor="middle">LEGENDA KOMPONEN - 4 channel</text>
+<rect x="3" y="16.8" width="86.0" height="4.4" fill="#c6472f"/>
+<text x="5" y="20.0" fill="#111a12" font-family="monospace" font-size="3.1" font-weight="bold">PER CHANNEL (1-4)</text>
+<text x="5" y="25.5" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">LDR1-4</text>
+<text x="27" y="25.5" fill="#8fae8a" font-family="monospace" font-size="2.7">GL5528</text>
+<text x="43" y="25.5" fill="#e9e4d6" font-family="monospace" font-size="2.7">sensor cahaya (gerbang nada)</text>
+<text x="5" y="29.8" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">RV1-4</text>
+<text x="27" y="29.8" fill="#8fae8a" font-family="monospace" font-size="2.7">100k</text>
+<text x="43" y="29.8" fill="#e9e4d6" font-family="monospace" font-size="2.7">trimmer: SETEL NADA / pitch</text>
+<text x="5" y="34.1" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">C1-4</text>
+<text x="27" y="34.1" fill="#8fae8a" font-family="monospace" font-size="2.7">47nF</text>
+<text x="43" y="34.1" fill="#e9e4d6" font-family="monospace" font-size="2.7">kapasitor timing osilator</text>
+<text x="5" y="38.4" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">R1-4</text>
+<text x="27" y="38.4" fill="#8fae8a" font-family="monospace" font-size="2.7">10k</text>
+<text x="43" y="38.4" fill="#e9e4d6" font-family="monospace" font-size="2.7">mixer -&gt; titik SUMMING</text>
+<rect x="3" y="39.49999999999999" width="86.0" height="4.4" fill="#c6472f"/>
+<text x="5" y="42.699999999999996" fill="#111a12" font-family="monospace" font-size="3.1" font-weight="bold">OSILATOR &amp; MIX</text>
+<text x="5" y="48.199999999999996" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">U1</text>
+<text x="27" y="48.199999999999996" fill="#8fae8a" font-family="monospace" font-size="2.7">CD40106</text>
+<text x="43" y="48.199999999999996" fill="#e9e4d6" font-family="monospace" font-size="2.7">IC: 4 osilator (hex)</text>
+<text x="5" y="52.49999999999999" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">R5</text>
+<text x="27" y="52.49999999999999" fill="#8fae8a" font-family="monospace" font-size="2.7">10k</text>
+<text x="43" y="52.49999999999999" fill="#e9e4d6" font-family="monospace" font-size="2.7">bleed ke GND di SUMMING</text>
+<text x="5" y="56.79999999999999" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">C5</text>
+<text x="27" y="56.79999999999999" fill="#8fae8a" font-family="monospace" font-size="2.7">10nF</text>
+<text x="43" y="56.79999999999999" fill="#e9e4d6" font-family="monospace" font-size="2.7">tone / low-pass</text>
+<text x="5" y="61.09999999999999" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">C6</text>
+<text x="27" y="61.09999999999999" fill="#8fae8a" font-family="monospace" font-size="2.7">1uF</text>
+<text x="43" y="61.09999999999999" fill="#e9e4d6" font-family="monospace" font-size="2.7">DC-block sebelum volume</text>
+<rect x="3" y="62.19999999999999" width="86.0" height="4.4" fill="#c6472f"/>
+<text x="5" y="65.39999999999999" fill="#111a12" font-family="monospace" font-size="3.1" font-weight="bold">AUDIO / PENGUAT</text>
+<text x="5" y="70.89999999999999" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">RV5</text>
+<text x="27" y="70.89999999999999" fill="#8fae8a" font-family="monospace" font-size="2.7">10k</text>
+<text x="43" y="70.89999999999999" fill="#e9e4d6" font-family="monospace" font-size="2.7">VOLUME (potensiometer)</text>
+<text x="5" y="75.19999999999999" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">U2</text>
+<text x="27" y="75.19999999999999" fill="#8fae8a" font-family="monospace" font-size="2.7">LM386</text>
+<text x="43" y="75.19999999999999" fill="#e9e4d6" font-family="monospace" font-size="2.7">penguat -&gt; jack</text>
+<text x="5" y="79.49999999999999" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">C7</text>
+<text x="27" y="79.49999999999999" fill="#8fae8a" font-family="monospace" font-size="2.7">0.1uF</text>
+<text x="43" y="79.49999999999999" fill="#e9e4d6" font-family="monospace" font-size="2.7">decoupling supply</text>
+<text x="5" y="83.79999999999998" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">C12,C13</text>
+<text x="27" y="83.79999999999998" fill="#8fae8a" font-family="monospace" font-size="2.7">0.1uF</text>
+<text x="43" y="83.79999999999998" fill="#e9e4d6" font-family="monospace" font-size="2.7">decoupling tambahan U1 / U2</text>
+<text x="5" y="88.09999999999998" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">C8</text>
+<text x="27" y="88.09999999999998" fill="#8fae8a" font-family="monospace" font-size="2.7">10uF</text>
+<text x="43" y="88.09999999999998" fill="#e9e4d6" font-family="monospace" font-size="2.7">reservoir supply (+/-)</text>
+<text x="5" y="92.39999999999998" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">C9</text>
+<text x="27" y="92.39999999999998" fill="#8fae8a" font-family="monospace" font-size="2.7">10uF</text>
+<text x="43" y="92.39999999999998" fill="#e9e4d6" font-family="monospace" font-size="2.7">bypass LM386 (+/-)</text>
+<text x="5" y="96.69999999999997" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">R6</text>
+<text x="27" y="96.69999999999997" fill="#8fae8a" font-family="monospace" font-size="2.7">10R</text>
+<text x="43" y="96.69999999999997" fill="#e9e4d6" font-family="monospace" font-size="2.7">Zobel network</text>
+<text x="5" y="100.99999999999997" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">C10</text>
+<text x="27" y="100.99999999999997" fill="#8fae8a" font-family="monospace" font-size="2.7">0.47uF</text>
+<text x="43" y="100.99999999999997" fill="#e9e4d6" font-family="monospace" font-size="2.7">Zobel network</text>
+<text x="5" y="105.29999999999997" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">C11</text>
+<text x="27" y="105.29999999999997" fill="#8fae8a" font-family="monospace" font-size="2.7">10uF</text>
+<text x="43" y="105.29999999999997" fill="#e9e4d6" font-family="monospace" font-size="2.7">DC-block output (+/-)</text>
+<text x="5" y="109.59999999999997" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">R7</text>
+<text x="27" y="109.59999999999997" fill="#8fae8a" font-family="monospace" font-size="2.7">1k</text>
+<text x="43" y="109.59999999999997" fill="#e9e4d6" font-family="monospace" font-size="2.7">attenuator -&gt; level aux</text>
+<text x="5" y="113.89999999999996" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">R8</text>
+<text x="27" y="113.89999999999996" fill="#8fae8a" font-family="monospace" font-size="2.7">4.7k</text>
+<text x="43" y="113.89999999999996" fill="#e9e4d6" font-family="monospace" font-size="2.7">attenuator</text>
+<rect x="3" y="114.99999999999996" width="86.0" height="4.4" fill="#c6472f"/>
+<text x="5" y="118.19999999999996" fill="#111a12" font-family="monospace" font-size="3.1" font-weight="bold">KONEKTOR</text>
+<text x="5" y="123.69999999999996" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">J1</text>
+<text x="27" y="123.69999999999996" fill="#8fae8a" font-family="monospace" font-size="2.7">hdr 2p</text>
+<text x="43" y="123.69999999999996" fill="#e9e4d6" font-family="monospace" font-size="2.7">baterai 9V (+ / -)</text>
+<text x="5" y="127.99999999999996" fill="#e9e4d6" font-family="monospace" font-size="3" font-weight="bold">J2</text>
+<text x="27" y="127.99999999999996" fill="#8fae8a" font-family="monospace" font-size="2.7">PJ-342</text>
+<text x="43" y="127.99999999999996" fill="#e9e4d6" font-family="monospace" font-size="2.7">jack TRRS SMD (sisi bawah)</text>
+<text x="46.0" y="141.8" fill="#8fae8a" font-family="monospace" font-size="2.4" text-anchor="middle">RV=resistor variabel  C=kapasitor  U=IC  J=konektor</text>
+<text x="46.0" y="144.4" fill="#c6472f" font-family="monospace" font-size="2.3" text-anchor="middle">J2 pinout: cek multimeter (T=audio, S=GND)</text>
+</svg>

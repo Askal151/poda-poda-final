@@ -14,7 +14,7 @@ Repo ini hanya berisi **hasil akhir** (versi 4 channel).
 ## Status
 - 4 channel polifonik BUNYI di PCB etch — osilator + gerbang + amp + jack
 - Schematic 4-channel SPICE-validated (`simulation/organ_spice.cir`)
-- PCB single-sided, toner-transfer, solder tangan; DRC bersih (`docs/drc4.rpt`)
+- PCB single-sided, toner-transfer, solder tangan; DRC bersih (`docs/drc4.rpt`, 0 error/0 unconnected)
 - Sisa: tuning pentatonik (4 nada, mis. C–D–E–G) + mekanik engkol/roller + casing
 
 ## Spesifikasi ringkas (4-channel)
@@ -25,9 +25,9 @@ Repo ini hanya berisi **hasil akhir** (versi 4 channel).
 - Peta gate: ch1 pin1/2 · ch2 pin3/4 · ch3 pin11/10 · ch4 pin9/8
 
 ## Isi repo
-- `pcb/` — `organ4.kicad_pcb` (KiCad), project, footprint `mylib.pretty`
+- `pcb/` — `organ4.kicad_pcb` (KiCad, sudah termasuk C12/C13), project, footprint `mylib.pretty`
 - `fabrication/` — `pcb_etch_mask_ornament.svg` (**artwork cetak terbaru: etch mask dengan ornamen + pad C12/C13**), `organ4_ETCH_bottom_mirrored.svg` (artwork polos 1:1, mirror), layout jumper
-- `docs/` — panduan build + checklist + urutan tes (`BUILD_GUIDE_board_baru.md`), BOM, legend, netlist, gambar perakitan
+- `docs/` — `organ4_COMPLETE_layered.svg` (**multi-layer untuk Inkscape**: outline, tembaga, fab, label, nilai, net), render PNG/PDF, panduan build + checklist + urutan tes (`BUILD_GUIDE_board_baru.md`), BOM, legend, netlist, gambar perakitan
 - `simulation/` — model SPICE (ngspice) dan hasilnya
 
 ## Lisensi
