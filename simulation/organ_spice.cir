@@ -1,0 +1,50 @@
+* ============================================================
+* Sun Organ - SPICE validasi (model 40106 = switch histeresis)
+* Ch1: 228k+10nF, LDR TERANG(ON)  -> harus BUNYI ~440Hz
+* Ch2: 3.8k+1uF,  LDR GELAP(OFF)   -> harus SENYAP (ter-gate)
+* ============================================================
+Vdd vdd 0 9
+.model SWH SW(vt=4.5 vh=1.1 ron=100 roff=1g)
+.model SWL SW(vt=4.5 vh=1.1 ron=1g  roff=100)
+.subckt schmitt in out vdd
+SL vdd out in 0 SWL
+SH out 0   in 0 SWH
+.ends
+
+* ---- Ch1: 440Hz, LDR ON ----
+X1 in1 out1 vdd schmitt
+Rf1 out1 in1 228k
+C1  in1 0 10n
+Rl1 out1 g1 1k
+Rm1 g1 sum 10k
+
+* ---- Ch2: ~264Hz, LDR OFF ----
+X2 in2 out2 vdd schmitt
+Rf2 out2 in2 3.8k
+C2  in2 0 1u
+Rl2 out2 g2 1meg
+Rm2 g2 sum 10k
+
+* ---- mixer + tone + bleed ----
+Rbleed sum 0 10k
+Ctone  sum 0 10n
+Cdc    sum potin 1u
+Rpt potin pw 5k
+Rpb pw 0 5k
+
+* ---- LM386 behavioral: bias Vdd/2, gain 20, clamp ----
+B386 lmout 0 V = max( min( 4.5 + 20*V(pw), 8.85 ), 0.15 )
+Rz lmout zm 10
+Cz zm 0 47n
+Cout lmout nb 10u
+Ra1 nb nc 1k
+Ra2 nc 0 220
+Rload nc 0 10k
+
+.ic V(in1)=0 V(in2)=0
+.tran 2u 60m uic
+.control
+run
+wrdata /tmp/organ2.csv V(out1) V(out2) V(sum) V(nc)
+.endc
+.end

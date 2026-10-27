@@ -1,0 +1,18 @@
+# Editor local history
+.history/
+
+# Python
+__pycache__/
+*.pyc
+
+# KiCad backups / locks / caches
+*-backups/
+*.kicad_pcb-bak
+*.bak
+fp-info-cache
+*.lck
+~*.lck
+
+# OS cruft
+.DS_Store
+Thumbs.db
