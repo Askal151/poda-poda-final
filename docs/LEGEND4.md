@@ -17,8 +17,8 @@ Peta kode komponen (reference designator) → apa & fungsinya.
 | Kode | Nilai | Komponen | Fungsi |
 |---|---|---|---|
 | **LDR1–4** | GL5528 | Fotoresistor | Gerbang optik tiap nada — terang = bunyi, gelap = senyap |
-| **RVp1–4** | 500k | Trimmer | **Setel PITCH / nada** tiap channel (mis. RVp4 = tuning nada ke-4) |
-| **Ct1–4**  | 10nF | Kapasitor | Kapasitor timing osilator (bareng trimmer menentukan frekuensi) |
+| **RVp1–4** | 100k | Trimmer | **Setel PITCH / nada** tiap channel (mis. RVp4 = tuning nada ke-4) |
+| **Ct1–4**  | 47nF | Kapasitor | Kapasitor timing osilator (bareng trimmer menentukan frekuensi) |
 | **Rmix1–4**| 10k  | Resistor | Mixer — gabungkan output tiap channel ke SUMMING node |
 
 ## Osilator & mixer
@@ -38,10 +38,10 @@ Peta kode komponen (reference designator) → apa & fungsinya.
 | **Cs2** | 10µF | Elko | Reservoir supply LM386 |
 | **Cbyp**| 10µF | Elko | Bypass (pin 7 LM386) |
 | **Rz**  | 10Ω | Resistor | Zobel network (stabilkan amp) |
-| **Cz**  | 0.047µF | Kapasitor | Zobel network |
+| **Cz**  | 0,47µF | Kapasitor | Zobel network |
 | **Cout**| 10µF | Elko | DC-block output |
 | **Ratt1** | 1k | Resistor | Attenuator (turunkan ke level aux) |
-| **Ratt2** | 220Ω | Resistor | Attenuator |
+| **Ratt2** | 4,7k | Resistor | Attenuator |
 
 ## Konektor
 | Kode | Komponen | Fungsi |

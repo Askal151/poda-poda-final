@@ -1,16 +1,17 @@
 Optical Card Organ - BOM (RefDes -> value)
 ==================================================
 10k        x6  : R1, R2, R3, R4, R5, RV5
-10nF       x5  : C1, C2, C3, C4, C5
-500k       x4  : RV1, RV2, RV3, RV4
+47nF       x4  : C1, C2, C3, C4
+10nF       x1  : C5
+100k       x4  : RV1, RV2, RV3, RV4
 LDR        x4  : LDR1, LDR2, LDR3, LDR4
 10uF       x3  : C11, C8, C9
-0.047uF    x1  : C10
+0.47uF     x1  : C10
 0.1uF      x1  : C7
 10R        x1  : R6
 1k         x1  : R7
 1uF        x1  : C6
-220R       x1  : R8
+4.7k       x1  : R8
 40106      x1  : U1
 Conn_01x02_Pin x1  : J1
 LM386      x1  : U2

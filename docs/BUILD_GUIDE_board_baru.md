@@ -52,8 +52,8 @@ Per channel:
 PETA GATE (gate 1,2,4,5 dipakai):
    ch1: IN=pin1  OUT=pin2
    ch2: IN=pin3  OUT=pin4
-   ch3: IN=pin9  OUT=pin8
-   ch4: IN=pin11 OUT=pin10
+   ch3: IN=pin11 OUT=pin10
+   ch4: IN=pin9  OUT=pin8
    NGANGGUR: gate3 IN=pin5, gate6 IN=pin13  -> KE GND
    U1 pin14 -> +9V ; pin7 -> GND
 

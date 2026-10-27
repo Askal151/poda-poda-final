@@ -2749,7 +2749,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "47nF"
 			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4459,7 +4459,7 @@
 				)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "100k"
 			(at -2.54 3.67 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6912,7 +6912,7 @@
 				)
 			)
 		)
-		(property "Value" "0.047uF"
+		(property "Value" "0.47uF"
 			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7937,7 +7937,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "47nF"
 			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8543,7 +8543,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "47nF"
 			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8732,7 +8732,7 @@
 				)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "4.7k"
 			(at 3.81 2.37 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9681,7 +9681,7 @@
 				)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "100k"
 			(at -2.54 3.67 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9890,7 +9890,7 @@
 				)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "100k"
 			(at -2.54 3.67 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10099,7 +10099,7 @@
 				)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "47nF"
 			(at 2.5 2.5 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10477,7 +10477,7 @@
 				)
 			)
 		)
-		(property "Value" "500k"
+		(property "Value" "100k"
 			(at -2.54 3.67 0)
 			(layer "F.Fab")
 			(hide yes)

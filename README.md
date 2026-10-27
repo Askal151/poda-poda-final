@@ -17,11 +17,12 @@ Repo ini hanya berisi **hasil akhir** (versi 4 channel).
 - PCB single-sided, toner-transfer, solder tangan; DRC bersih (`docs/drc4.rpt`)
 - Sisa: tuning pentatonik (4 nada, mis. C–D–E–G) + mekanik engkol/roller + casing
 
-## Spesifikasi ringkas
-- U1 = CD40106 (osilator) · U2 = LM386 (amp)
-- LDR1–4 (GL5528) · RV1–4 = trimpot (pitch) · RV5 = 10k (volume)
-- Zobel R6 10Ω + C10 0,47µF
-- Attenuator R7 / R8 → level-line ke speaker aktif
+## Spesifikasi ringkas (4-channel)
+- U1 = CD40106 (osilator, gate 1/2/4/5) · U2 = LM386 (amp)
+- LDR1–4 (GL5528) · RV1–4 = trimpot 100k (pitch) · RV5 = 10k (volume)
+- C timing = 47nF · R mixer = 10k · Zobel R6 10Ω + C10 0,47µF
+- Attenuator R7 1k / R8 4,7k → level-line ke speaker aktif
+- Peta gate: ch1 pin1/2 · ch2 pin3/4 · ch3 pin11/10 · ch4 pin9/8
 
 ## Isi repo
 - `pcb/` — `organ4.kicad_pcb` (KiCad), project, footprint `mylib.pretty`
