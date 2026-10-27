@@ -22,6 +22,8 @@ Kapasitor:
   C5    = 10nF (tone)
   C6    = 1µF (Cdc / DC-block)          [elektrolit: + ke SUMMING]
   C7    = 0,1µF (supply decoupling, keramik)
+  C12   = 0,1µF (decoupling tambahan, dekat U1 CD40106: +9V <-> GND) [pad ada di artwork ornament]
+  C13   = 0,1µF (decoupling tambahan, dekat U2 LM386:  +9V <-> GND) [pad ada di artwork ornament]
   C8    = 10µF (supply decoupling)       [elektrolit: + ke +9V]
   C9    = 10µF (bypass pin7)             [elektrolit: + ke pin7]
   C10   = 0,47µF (Zobel, keramik)

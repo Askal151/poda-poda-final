@@ -35,6 +35,7 @@ Peta kode komponen (reference designator) → apa & fungsinya.
 | **RVvol** | 10k | Potensiometer | **Volume** |
 | **U3** | LM386 | IC power amp | Penguat / line driver ke jack |
 | **Cs1** | 0.1µF | Kapasitor | Decoupling supply LM386 |
+| **C12, C13** | 0.1µF | Kapasitor | Decoupling tambahan di dekat U1 (CD40106) dan U2 (LM386), +9V ↔ GND |
 | **Cs2** | 10µF | Elko | Reservoir supply LM386 |
 | **Cbyp**| 10µF | Elko | Bypass (pin 7 LM386) |
 | **Rz**  | 10Ω | Resistor | Zobel network (stabilkan amp) |

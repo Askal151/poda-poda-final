@@ -26,7 +26,7 @@ Repo ini hanya berisi **hasil akhir** (versi 4 channel).
 
 ## Isi repo
 - `pcb/` — `organ4.kicad_pcb` (KiCad), project, footprint `mylib.pretty`
-- `fabrication/` — `organ4_ETCH_bottom_mirrored.svg` (**artwork cetak toner-transfer, 1:1, mirror**), layout jumper
+- `fabrication/` — `pcb_etch_mask_ornament.svg` (**artwork cetak terbaru: etch mask dengan ornamen + pad C12/C13**), `organ4_ETCH_bottom_mirrored.svg` (artwork polos 1:1, mirror), layout jumper
 - `docs/` — panduan build + checklist + urutan tes (`BUILD_GUIDE_board_baru.md`), BOM, legend, netlist, gambar perakitan
 - `simulation/` — model SPICE (ngspice) dan hasilnya
 
